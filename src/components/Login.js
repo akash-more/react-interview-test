@@ -22,7 +22,7 @@ const Login = () => {
       alert("Please provide both username and password.");
       return;
     }
-    setUsername(loginData.userName);
+    setUsername(loginData.username);
     navigate("/People");
   };
   return (
